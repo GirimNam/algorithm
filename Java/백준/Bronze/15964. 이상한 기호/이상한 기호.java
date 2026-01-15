@@ -7,8 +7,9 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int result = (a+b)*(a-b);
+        long result = (long)(Math.pow(a, 2)) - (long)(Math.pow(b, 2)) ;
 
         System.out.println(result);
     }
 }
+
